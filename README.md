@@ -7,7 +7,7 @@ My GNOME theme based on Linux Zorin. Main theme is The World God Only Knows of m
 1. Wallch
 2. Spotify
 3. Extensions like Material icon and Doki doki theme for VS and Fix Checksums for error into VS.
-4. Steam. (There area two methods).
+4. Steam. (There are two methods).
 
 # Wallpapers. 
 ![](/wallpapers/The_word_God_only_knows_12.jpg)
