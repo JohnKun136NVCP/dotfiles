@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Enter the path to development.ini ({0} points to the root of the current workspace folder)"
+	],
+	"keys": [
+		"debug.pyramidEnterDevelopmentIniPathPrompt"
+	],
+	"filePath": "src/client/debugger/extension/configuration/providers/pyramidLaunch"
+}

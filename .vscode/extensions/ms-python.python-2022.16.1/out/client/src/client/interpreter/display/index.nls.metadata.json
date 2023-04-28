@@ -1,0 +1,11 @@
+{
+	"messages": [
+		"Python interpreter path: {0}",
+		"Python interpreter path: {0}"
+	],
+	"keys": [
+		"Interpreters.sttausBarPythonInterpreterPath",
+		"Interpreters.pythonInterpreterPath"
+	],
+	"filePath": "src/client/interpreter/display/index"
+}

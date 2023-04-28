@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"There was an error in running the linter '{0}'"
+	],
+	"keys": [
+		"linterError"
+	],
+	"filePath": "src/client/linters/errorHandlers/standard"
+}

@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"We failed to start a TensorBoard session due to the following error: {0}"
+	],
+	"keys": [
+		"TensorBoard.failedToStartSessionError"
+	],
+	"filePath": "src/client/tensorBoard/tensorBoardSessionProvider"
+}

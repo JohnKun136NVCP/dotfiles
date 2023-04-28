@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Could not load unit test config from launch.json as it is missing a field"
+	],
+	"keys": [
+		"readDebugError"
+	],
+	"filePath": "src/client/testing/common/debugLauncher"
+}

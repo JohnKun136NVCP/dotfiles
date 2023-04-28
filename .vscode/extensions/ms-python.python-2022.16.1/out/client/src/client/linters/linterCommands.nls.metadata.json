@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Multiple linters are enabled in settings. Replace with '{0}'?"
+	],
+	"keys": [
+		"Linter.replaceWithSelectedLinter"
+	],
+	"filePath": "src/client/linters/linterCommands"
+}

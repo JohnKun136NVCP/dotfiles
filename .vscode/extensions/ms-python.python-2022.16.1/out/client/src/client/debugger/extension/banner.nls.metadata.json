@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Can you please take 2 minutes to tell us how the debugger is working for you?"
+	],
+	"keys": [
+		"debuggerSurveyText"
+	],
+	"filePath": "src/client/debugger/extension/banner"
+}

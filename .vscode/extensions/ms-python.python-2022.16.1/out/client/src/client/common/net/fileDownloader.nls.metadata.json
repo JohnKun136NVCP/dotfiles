@@ -1,0 +1,11 @@
+{
+	"messages": [
+		"Downloading {0}...",
+		"{0}{1} of {2} KB ({3}%)"
+	],
+	"keys": [
+		"downloading.file",
+		"downloading.file.progress"
+	],
+	"filePath": "src/client/common/net/fileDownloader"
+}

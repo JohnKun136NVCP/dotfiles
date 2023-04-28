@@ -1,0 +1,17 @@
+{
+	"messages": [
+		"Experiment '{0}' is inactive",
+		"Experiment '{0}' is active",
+		"Experiment '{0}' is inactive",
+		"Experiment '{0}' is active",
+		"Experiment '{0}' is active"
+	],
+	"keys": [
+		"Experiments.optedOutOf",
+		"Experiments.inGroup",
+		"Experiments.manuallyOptedOutOf",
+		"Experiments.manuallyOptIntoExperiments",
+		"Experiments.autoOptIntoExperiments"
+	],
+	"filePath": "src/client/common/experiments/service"
+}

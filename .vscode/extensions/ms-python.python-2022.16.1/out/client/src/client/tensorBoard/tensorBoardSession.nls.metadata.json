@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Current: {0}"
+	],
+	"keys": [
+		"TensorBoard.currentDirectory"
+	],
+	"filePath": "src/client/tensorBoard/tensorBoardSession"
+}

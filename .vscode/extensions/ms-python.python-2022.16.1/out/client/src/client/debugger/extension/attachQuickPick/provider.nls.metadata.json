@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Operating system '{0}' not supported."
+	],
+	"keys": [
+		"AttachProcess.unsupportedOS"
+	],
+	"filePath": "src/client/debugger/extension/attachQuickPick/provider"
+}

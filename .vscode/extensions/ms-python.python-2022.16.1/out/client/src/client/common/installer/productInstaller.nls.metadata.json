@@ -1,0 +1,25 @@
+{
+	"messages": [
+		"Use {0}",
+		"Formatter {0} is not installed. Install?",
+		"Path to the {0} formatter is invalid ({1})",
+		"Linter {0} is not installed.",
+		"Path to the {0} linter is invalid ({1})",
+		"Test framework {0} is not installed. Install?",
+		"Path to the {0} test framework is invalid ({1})",
+		"Could not install {0}. If pip is not available, please use the package manager of your choice to manually install this library into your Python environment.",
+		"Data Science library {0} is not installed. Install?"
+	],
+	"keys": [
+		"products.useFormatter",
+		"products.formatterNotInstalled",
+		"products.invalidFormatterPath",
+		"Linter.notInstalled",
+		"Linter.invalidPath",
+		"TestFramework.notIstalled",
+		"TestFramework.invalidPath",
+		"Installer.couldNotInstallLibrary",
+		"Installer.dataScienceInstallPrompt"
+	],
+	"filePath": "src/client/common/installer/productInstaller"
+}

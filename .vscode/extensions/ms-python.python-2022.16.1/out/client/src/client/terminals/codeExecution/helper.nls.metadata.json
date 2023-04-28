@@ -1,0 +1,13 @@
+{
+	"messages": [
+		"No open file to run in terminal",
+		"The active file needs to be saved before it can be run",
+		"The active file is not a Python source file)"
+	],
+	"keys": [
+		"documentError.Empty",
+		"documentError.NoSaved",
+		"documentError.NotPythonFile"
+	],
+	"filePath": "src/client/terminals/codeExecution/helper"
+}

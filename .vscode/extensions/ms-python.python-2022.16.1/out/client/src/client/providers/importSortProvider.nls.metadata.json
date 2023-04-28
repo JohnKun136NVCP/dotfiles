@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Please open a Python file to sort the imports."
+	],
+	"keys": [
+		"sortImportError"
+	],
+	"filePath": "src/client/providers/importSortProvider"
+}

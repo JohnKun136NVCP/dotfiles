@@ -1,0 +1,15 @@
+{
+	"messages": [
+		"Python IntelliSense Status",
+		"Partial Mode",
+		"Limited IntelliSense provided by Pylance",
+		"Learn more"
+	],
+	"keys": [
+		"LanguageService.statusItem.name",
+		"LanguageService.statusItem.text",
+		"LanguageService.statusItem.detail",
+		"Common.learnMore"
+	],
+	"filePath": "src/client/browser/localize"
+}

@@ -1,0 +1,9 @@
+import os
+from pathlib import Path
+from typing import Union
+
+_PathCompatible = Union[str, os.PathLike[str]]
+
+def safe_join(base: _PathCompatible, *paths: _PathCompatible) -> str: ...
+def symlinks_supported() -> bool: ...
+def to_path(value: Union[Path, str]) -> Path: ...

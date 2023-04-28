@@ -1,0 +1,1 @@
+{"messages":["The debugger in the python extension no longer supports python versions minor than 3.7.","Please install Python or select a Python Interpreter to use the debugger."],"keys":["Debug.deprecatedDebuggerError","interpreterError"],"filePath":"src/client/debugger/extension/adapter/factory"}

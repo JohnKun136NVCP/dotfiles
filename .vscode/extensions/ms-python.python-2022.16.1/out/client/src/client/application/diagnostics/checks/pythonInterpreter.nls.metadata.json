@@ -1,0 +1,13 @@
+{
+	"messages": [
+		"No Python interpreter is selected. Please select a Python interpreter to enable features such as IntelliSense, linting, and debugging.",
+		"An Invalid Python interpreter is selected{0}, please try changing it to enable features such as IntelliSense, linting, and debugging.",
+		"for workspace"
+	],
+	"keys": [
+		"DiagnosticCodes.NoPythonInterpretersDiagnostic",
+		"DiagnosticCodes.NoCurrentlySelectedPythonInterpreterDiagnostic",
+		"Common.forWorkspace"
+	],
+	"filePath": "src/client/application/diagnostics/checks/pythonInterpreter"
+}

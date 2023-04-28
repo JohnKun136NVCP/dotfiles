@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Starting Jedi language server for {0}."
+	],
+	"keys": [
+		"LanguageService.startingJedi"
+	],
+	"filePath": "src/client/languageServer/watcher"
+}

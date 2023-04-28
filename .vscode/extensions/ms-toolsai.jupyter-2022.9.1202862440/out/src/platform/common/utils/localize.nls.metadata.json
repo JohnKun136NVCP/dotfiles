@@ -1,0 +1,1380 @@
+{
+	"messages": [
+		"Python",
+		"Jupyter",
+		"Yes",
+		"No",
+		"Yes, please",
+		"Canceled",
+		"Cancel",
+		"Ok",
+		"Download",
+		"Got it!",
+		"Install",
+		"Jupyter Extension loading...",
+		"Extension activation failed, run the 'Developer: Toggle Developer Tools' command for more information.",
+		"Show output",
+		"No, I will do it later",
+		"Not now",
+		"Do not show again",
+		"Reload",
+		"More Info",
+		"Learn more",
+		"and",
+		"Report this issue",
+		"Click <a href='{0}'>here</a> for more info.",
+		"Remind me later",
+		"Yes, take survey now",
+		"No, thanks",
+		"Downloading {0}...",
+		"{0}{1} of {2} KB ({3}%)",
+		"User belongs to experiment group '{0}'",
+		"Jupyter",
+		"We encountered an error while submitting your GitHub Issue. Would you still like to report an issue?",
+		"Yes, copy content to clipboard and open issue",
+		"Please provide a descriptive title summarizing your issue.",
+		"E.g.: Unable to start a local kernel session",
+		"Please fill this section out and delete this comment before submitting an issue!",
+		"Please provide details of the issue you encountered before clicking Submit GitHub Issue.",
+		"You have enabled debug logging for the Jupyter Extension, which will continue to write logs to disk. Would you like to turn debug logging off?",
+		"Yes, turn off debug logging",
+		"No",
+		"No, and don't ask again",
+		"Would you like shift-enter to send code to the new Interactive Window experience?",
+		"Can you please take a minute to tell us about your notebooks experience in VS Code?",
+		"Can you please take 2 minutes to tell us how the Python Data Science features are working for you?",
+		"Yes, take survey now",
+		"No, thanks",
+		"Installing Notebook Renderers extension... ",
+		"complete.",
+		"Starting download of Notebook Renderers extension.",
+		"Downloading Notebook Renderers Extension... ",
+		"Notebook Renderers extension download complete.",
+		"Can you please take 2 minutes to tell us how the Python Extension is working for you?",
+		"Yes, take survey now",
+		"No, thanks",
+		"Maybe later",
+		"Installing {0}",
+		"The version of Python associated with the selected kernel is no longer supported. Please consider selecting a different kernel.",
+		"Python Extension required to run Python notebooks.",
+		"Installing Python extension and locating kernels.",
+		"Customize Layout",
+		"The Python Extension is required to perform that task. Click Yes to open Python Extension installation page.",
+		"Python Extension is now installed. Some features might not be available until a notebook or interactive window session is restarted.",
+		"Server URI cannot be used. Did you uninstall an extension that provided a Jupyter server connection?",
+		"{0} (From {1} extension)",
+		"unknown",
+		"Interactive",
+		"Interactive - {0}",
+		"Do you want to open a new Interactive Window for this file? [More Information](command:workbench.action.openSettings?%5B%22jupyter.interactiveWindowMode%22%5D).",
+		"Yes",
+		"Always",
+		"No",
+		"Data Viewer",
+		"<html><body><h1>{0} is not a valid file name</h1></body></html>",
+		"Checking if \"import\" is supported",
+		"Installing missing dependencies",
+		"Validating kernel dependencies",
+		"Performing Export",
+		"Converting to PDF",
+		"Exporting Notebook to Python",
+		"Cannot execute code, session has been disposed.",
+		"Failed to connect to password protected server. Check that password is correct.",
+		"Raw kernel process was not able to start.",
+		"Raw kernel process exited before connecting.",
+		"MIME type {0} is not currently supported",
+		"Export to Jupyter Notebook",
+		"Jupyter Notebooks",
+		"Notebook written to {0}",
+		"Failed to export notebook. {0}",
+		"Open in editor",
+		"Run Cell",
+		"Import Jupyter Notebook",
+		"Do you want to import the Jupyter Notebook into Python code?",
+		"Import",
+		"Later",
+		"Don't Ask Again",
+		"Data Science library {0} is not installed. Install?",
+		"Data Science library {0} is not installed correctly or outdated. Re-Install?",
+		"Could not install {0} package. If pip is not available, please use the package manager of your choice to manually install this library into your Python environment.",
+		"Running cells requires {0} package.",
+		"Running cells requires {0} package.",
+		"Running cells with '{0}' requires {1} package.",
+		"Running cells with '{0}' requires {1} package.",
+		"Running cells with '{0}' requires {1} package installed or requires an update.",
+		"Running cells with '{0}' requires {1} package.",
+		"Run the following command to install '{0}' into the Python environment. \nCommand: '{1}'",
+		"Select an Interpreter to start Jupyter",
+		"Install",
+		"current: {0}",
+		"Jupyter cannot be started. Error attempting to locate Jupyter: {0}",
+		"Activating {0} to run Jupyter failed with {1}",
+		"Jupyter nbconvert is not installed",
+		"The Jupyter notebook server failed to launch in time",
+		"Failed to find the URL of the launched Jupyter notebook server",
+		"The security certificate used by server {0} was not issued by a trusted certificate authority.\r\nThis may indicate an attempt to steal your information.\r\nDo you want to enable the Allow Unauthorized Remote Connection setting for this workspace to allow you to connect?",
+		"The security certificate used by server {0} has expired.\r\nThis may indicate an attempt to steal your information.\r\nDo you want to enable the Allow Unauthorized Remote Connection setting for this workspace to allow you to connect?",
+		"The security certificate used by server was not issued by a trusted certificate authority.\r\nThis may indicate an attempt to steal your information.",
+		"The security certificate used by server has expired.\r\nThis may indicate an attempt to steal your information.",
+		"Yes, connect anyways",
+		"No, close the connection",
+		"See <https://aka.ms/pyaiinstall> for help on installing Jupyter.",
+		"See <https://aka.ms/pyaiinstall> for help on installing Jupyter and related dependencies.",
+		"Importing {0}",
+		"Starting Jupyter server",
+		"Connecting to kernel: {0}",
+		"Connected.",
+		"Connecting to Jupyter server",
+		"Exporting {0}",
+		"Run All Cells",
+		"Run Above",
+		"Run Below",
+		"Do you want to restart the Jupyter kernel? All variables will be lost.",
+		"Restart",
+		"Don't Ask Again",
+		"Reconnecting to the kernel {0}",
+		"Restarting Kernel {0}",
+		"Kernel restart failed. Jupyter server is hung. Please reload VS Code.",
+		"Kernel interrupt failed. Jupyter server is hung. Please reload VS Code.",
+		"Failed to start the Kernel '{0}'. \nView Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"Failed to start Jupyter in the environment '{0}'. \nView Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"Failed to start Jupyter in the environment '{0}'. \n{1} \nView Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"Failed to start Jupyter in the environment '{0}' possibly due to an outdated version of 'traitlets'. \n{1} \nConsider updating the 'traitlets' module to '5.1.1' or later. \nView Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"Failed to start the Kernel.",
+		"Failed to restart the Kernel.",
+		"Failed to interrupt the Kernel.",
+		"Unable to start Kernel '{0}' due to connection timeout. \nView Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"View Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"The kernel died. Error: {0}... View Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"The kernel '{0}' died. Click [here](https://aka.ms/vscodeJupyterKernelCrash) for more info. View Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"The kernel '{0}' was not started as it is located in an insecure location '{1}'.  \nClick [here](https://aka.ms/JupyterTrustedKernelPaths) for further details, optionally update the setting [jupyter.kernels.trusted](command:workbench.action.openSettings?[\"jupyter.kernels.trusted\"]) to trust the kernel.",
+		"The kernel '{0}' died and is being automatically restarted by Jupyter. Click [here](https://aka.ms/vscodeJupyterKernelCrash) for more info. View Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"The Kernel crashed while executing code in the the current cell or a previous cell. Please review the code in the cell(s) to identify a possible cause of the failure. Click <a href='https://aka.ms/vscodeJupyterKernelCrash'>here</a> for more info. View Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"Unable to connect to the kernel '{0}', please verify the Jupyter Server connection. View Jupyter [log](command:jupyter.viewOutput) for further details.",
+		"Cannot run cells, as the kernel '{0}' is dead.",
+		"Show Jupyter Logs.",
+		"Executing Cell",
+		"Collapse all cell inputs",
+		"Expand all cell inputs",
+		"Collapse",
+		"Expand",
+		"Export as Jupyter notebook",
+		"Restart Jupyter Kernel",
+		"Restart Kernel",
+		"Undo",
+		"Redo",
+		"Save file",
+		"Remove all cells",
+		"Please reload the window for new settings to take effect.",
+		"Restarted {0}",
+		"_Restarting {0}..._",
+		"_Restarting kernel..._",
+		"Started {0}",
+		"_Connecting to kernel..._",
+		"_Connecting to {0}..._",
+		"Connected to {0}",
+		"Enter the URI of the running Jupyter server",
+		"Enter the URI of the running Jupyter server",
+		"Pick how to connect to Jupyter",
+		"Choose an option",
+		"Current: {0}",
+		"None",
+		"Do not connect to any remote Jupyter server",
+		"Last Connection: {0}",
+		"Existing",
+		"Specify the URI of an existing server",
+		"Invalid URI specified",
+		"Last connection {0}. {1} existing connections.",
+		"Cannot connect at this time. Status unknown.",
+		"Enter your user name and password to connect to Jupyter Hub",
+		"Change Server Display Name",
+		"Enter your user name",
+		"Enter your password",
+		"Python is not installed. \nPlease download and install Python in order to execute cells in this notebook.",
+		"The Jupyter Kernel '{0}' could not be found and needs to be installed in order to execute cells in this notebook.",
+		"Jupyter notebook failed to launch. \r\n{0}",
+		"The remote Jupyter Server contributed by the extension '{0}' is no longer available.",
+		"Failed to connect to the remote Jupyter Server '{0}'. Verify the server is running and reachable. ({1}).",
+		"Failed to connect to the remote Jupyter Server '{0}'. Verify the server is running and reachable.",
+		"Connection failure. Verify the server is running and reachable. ({0}).",
+		"Connection failure. Verify the server is running and reachable from a browser. ({0}). When connecting from vscode.dev Jupyter servers must be started with specific options to connect. See [here](https://aka.ms/vscjremoteweb) for more information.",
+		"When connecting from vscode.dev Jupyter servers must be started with specific options to connect. See [here](https://aka.ms/vscjremoteweb) for more information.",
+		"Forget Connection",
+		"Failed to connect to remote Jupyter server.\r\nCheck that the Jupyter Server URI can be reached from a browser.\r\n{0}. Click [here](https://aka.ms/vscjremoteweb) for more information.",
+		"Manage Connections",
+		"Change Jupyter Server connection.",
+		"Failed to connect to remote Jupyter notebook.\r\nSpecified server is using self signed certs. Enable Allow Unauthorized Remote Connection setting to connect anyways\r\n{0}\r\n{1}",
+		"Direct kernel connection",
+		"Direct kernel connection broken",
+		"Jupyter server crashed. Unable to connect. \r\nError code from Jupyter: {0}",
+		"Jupyter Notebook version: {0}",
+		"Cannot create a Jupyter kernel spec and none are available for use",
+		"'Kernelspec' module not installed in the selected interpreter ({0}).\n Please re-install or update 'jupyter'.",
+		"Interrupt Jupyter Kernel",
+		"Clear All Output",
+		"Interrupting Jupyter Kernel",
+		"Cancel",
+		"Python Script",
+		"HTML",
+		"PDF",
+		"Interrupting the kernel timed out. Do you want to restart the kernel instead? All variables will be lost.",
+		"Keyboard interrupt crashed the kernel. Kernel restarted.",
+		"Jupyter Server URI: ",
+		"Executing code failed : {0}",
+		"Type code here and press shift-enter to run",
+		"Cannot connect to host Jupyter session. URI not found.",
+		"Spawning Jupyter notebooks is not supported over a live share connection",
+		"Importing notebooks is not currently supported over a live share connection",
+		"{0} Jupyter Server",
+		"Synchronization failure during live share startup.",
+		"Failure starting '{0}' service during live share connection.",
+		"Cannot run cells, duplicate documents for {0} found.",
+		"Failed to fetch variable info from the Jupyter server.",
+		"'{0}' is not an active variable.",
+		"Failure to create an 'Interactive' window. Try reinstalling the Python Extension.",
+		"Failure during variable extraction: \r\n{0}",
+		"loading ...",
+		"Fetching data ...",
+		"No rows match current filter",
+		"Jupyter Server",
+		"No Kernel",
+		"Not Started",
+		"Change Kernel",
+		"Select a different Kernel",
+		"Choose the kernels that are available in the kernel picker.",
+		"Change Interpreter",
+		"local",
+		"Python package 'pandas' is version {0}. Version {1} or greater is required for viewing data.",
+		"Python package 'pandas' version {0} (or above) is required for viewing data.",
+		"values",
+		"One or more guests in the session do not have the Jupyter Extension installed. Live share session cannot continue.",
+		"Variables with over a 1000 columns may take a long time to display. Are you sure you wish to continue?",
+		"Yes",
+		"No",
+		"Don't Ask Again",
+		"Allows filtering multiple rows. Use =, >, or < signs to filter numeric values.",
+		"--- Begin preview of {0} ---",
+		"--- End preview of {0} ---",
+		"Generating preview of {0}",
+		"Plots",
+		"Save plot image",
+		"Previous",
+		"Next",
+		"Pan",
+		"Zoom in",
+		"Zoom out",
+		"Export to different formats",
+		"Remove",
+		"Input new cells here.",
+		"Selected Image",
+		"Image",
+		"Error exporting image: {0}",
+		"Cannot view variable because data rate exceeded. Please restart your server with a higher data rate limit. For example, --NotebookApp.iopub_data_rate_limit=10000000000.0",
+		"Add cell",
+		"Debug Cell",
+		"Step over",
+		"Continue",
+		"Stop",
+		"Run current cell and add empty cell below",
+		"Pip module {0} is required for debugging cells. You will need to install it to debug cells.",
+		"Unable to parse {0} output, please log an issue with https://github.com/microsoft/vscode-jupyter",
+		"Port {0} cannot be opened for debugging. Please specify a different port in the remoteDebuggerPort setting.",
+		"Port {0} cannot be connected to for debugging. Please let port {0} through your firewall.",
+		"Ports in the range {0}-{1} cannot be found for debugging. Please specify a port in the remoteDebuggerPort setting.",
+		"A port cannot be connected to for debugging. Please let ports {0}-{1} through your firewall.",
+		"Pip module {0} is required for debugging cells. Install {0} and continue to debug cell?",
+		"Pip module {0} is required for running by line. Install {0} and continue to run by line?",
+		"The version of {0} installed does not support debugging cells. Update {0} to newest version and continue to debug cell?",
+		"The version of {0} installed does not support running by line. Update {0} to newest version and continue to run by line?",
+		"Yes",
+		"No",
+		"Cell was canceled due to an error in a previous cell.",
+		"Go to [{0}]",
+		"# To add a new cell, type '{0}'\n# To add a new markdown cell, type '{0} [markdown]'\n",
+		"Notebook Editor",
+		"Untitled",
+		"Do you want to save the changes you made to {0}?",
+		"Your changes will be lost if you don't save them.",
+		"Save",
+		"Don't Save",
+		"Cancel",
+		"Save",
+		"Jupyter Notebooks",
+		"Export As",
+		"Save as Python File",
+		"Export",
+		"Export As...",
+		"Would you like to open the exported file?",
+		"Yes",
+		"No",
+		"Please check the 'Jupyter' [output](command:jupyter.viewOutput) panel for further details.",
+		"If you have not installed xelatex (TeX) you will need to do so before you can export to PDF, for further instructions please look https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex. \r\nTo avoid installing xelatex (TeX) you might want to try exporting to HTML and using your browsers \"Print to PDF\" feature.",
+		"Export failed.",
+		"Run cell",
+		"Delete cell",
+		"Move cell up",
+		"Move cell down",
+		"Move selected cell up",
+		"Move selected cell down",
+		"Insert cell below",
+		"Insert cell above",
+		"Add cell",
+		"Insert cell",
+		"Converting ipynb to python file",
+		"No python selected",
+		"python -m jupyter notebook --version is not running",
+		"Save Image",
+		"Couldn't find kernel '{0}' that the notebook was created with. Using the current interpreter.",
+		"Couldn't find kernel '{0}' that the notebook was created with. Registering a new kernel using the current interpreter.",
+		"Couldn't find kernel '{0}' that the notebook was created with.",
+		"Starting Jupyter from {0}",
+		"Starting Jupyter has timed out. Please check the 'Jupyter' output panel for further details.",
+		"Switching Kernel to '{0}'",
+		"Waiting for Jupyter Session to be idle",
+		"Fetching Kernels",
+		"Fetching Kernels",
+		"Fetching Kernel specs",
+		"Starting Jupyter Notebook",
+		"Registering Kernel",
+		"Output was trimmed for performance reasons.\nTo see the full output set the setting \"jupyter.textOutputLimit\" to 0.",
+		"Default",
+		"The Python Extension will determine the appropriate command line for Jupyter",
+		"Custom",
+		"Customize the command line passed to Jupyter on startup",
+		"Please reload the window when changing the Jupyter command line.",
+		"Reload",
+		"Choose an option",
+		"Pick command line for Jupyter",
+		"Enter your custom command line for Jupyter",
+		"Connecting to Jupyter server at {0}",
+		"{0}: Creating new notebook ",
+		"{0}: Kernel started: {1}",
+		"Kernel {0} is not usable. Check the Jupyter output tab for more information.",
+		"{0}. We cannot launch a Jupyter server for you because your OS is not supported. Select an already running server if you wish to continue.",
+		"Pick Running Server",
+		"Existing",
+		"Pick an already running Jupyter server",
+		"Specify the URI of an existing server",
+		"Remove",
+		"Specify Jupyter Server for Connections",
+		"Jupyter Server: Local",
+		"Jupyter Server: Remote",
+		"Error loading {0}:{1}. Internet connection required for loading 3rd party widgets.",
+		"Widgets require us to download supporting files from a 3rd party website. Click [here](https://aka.ms/PVSCIPyWidgets) for more information.",
+		"Widgets require us to download supporting files from a 3rd party website.",
+		"Widgets require us to download supporting files from a 3rd party website. Click <a href='https://command:jupyter.enableLoadingWidgetScriptsFromThirdPartySource'>here</a> to enable this or click <a href='https://aka.ms/PVSCIPyWidgets'>here</a> for more information. (Error loading {0}:{1}).",
+		"Widgets require us to download supporting files from a 3rd party website. (Error loading {0}:{1}).",
+		"Enable Downloads",
+		"Unhandled kernel message from a widget: {0} : {1}",
+		"Unable to download widget '{0}' from 3rd party website {1}, due to network access. Expected behavior may be affected. Click [here](https://aka.ms/PVSCIPyWidgets) for more information.",
+		"Unable to find widget '{0}' version '{1}' from configured widget sources {2}. Expected behavior may be affected. Click [here](https://aka.ms/PVSCIPyWidgets) for more information.",
+		"Unable to load a compatible version of the widget 'qgrid'. Consider downgrading to version 1.1.1.",
+		"Run by line (F10)",
+		"Run next line (F10)",
+		"Stop",
+		"Unable to start session for kernel {0}. Select another kernel to launch with.",
+		"Connecting to kernel.",
+		"Connecting over HTTP without a token may be an insecure connection. Do you want to connect to a possibly insecure server?",
+		"Denied connection to insecure server.",
+		"Connected",
+		"Disconnected",
+		"No kernel available for cell execution, please [specify a Jupyter server for connections](command:jupyter.selectjupyteruri)",
+		"IPyKernel not installed into interpreter {0}",
+		"Ipykernel setup required for this feature",
+		"Setup",
+		"Starting Run by Line",
+		"Failed to create the Data Viewer. Check the Jupyter tab of the Output window for more info.",
+		"Select an option to create a blank notebook",
+		"default",
+		"The {0} extension is recommended for notebooks targeting the language '{1}'",
+		"Kernel was not started. A kernel session is needed to start debugging.",
+		"No active notebook document to debug.",
+		"Can't start debugging.",
+		"Importing notebook file",
+		"Exporting to {0}",
+		"(Remote) Jupyter Session",
+		"(Remote)",
+		"Jupyter Kernel",
+		"(Remote) Jupyter Kernel",
+		"Conda Env",
+		"Poetry Env",
+		"Pipenv Env",
+		"PyEnv Env",
+		"Global Env",
+		"Virtual Env",
+		"The file '{0}' seems to be overriding built in modules and interfering with the startup of the kernel. Consider renaming the file and starting the kernel again.",
+		"The module '{0}' seems to be overriding built in modules and interfering with the startup of the kernel. Consider renaming the folder and starting the kernel again.",
+		"'!{0} install' could install packages into the wrong environment. [More info]({1})",
+		"Use '%{0} install' instead of '!{0} install'",
+		"Replace with '%{0} install'",
+		"The kernel failed to start due to the missing module '{0}'. Consider installing this module.",
+		"The kernel failed to start as the module '{0}' could not be imported.",
+		"The kernel failed to start as '{0}' could not be imported from '{1}'.",
+		"The kernel failed to start as a dll could not be loaded.",
+		"The kernel failed to start as the dll '{0}' could not be loaded.",
+		"The kernel failed to start due to an error with the Win32api module. Consider (re) installing this module.",
+		"The kernel failed to start due to an error with the 'pyzmq' module. Consider re-installing this module.",
+		"The kernel failed to start due to an outdated version of IPython. Consider updating this module to the latest version.",
+		"The kernel failed to start due to an outdated version of IPyKernel. Consider updating this module to the latest version.",
+		"'%matplotlib' widget works best inside of VS Code",
+		"More info",
+		"Do you want to give the extension '{0}' access to the Jupyter Kernels? Clicking '{1}' would allow this extension to execute code against the Jupyter Kernels.",
+		"Thanks for trying the Jupyter API. Please file an issue on our repo to use this API in production. This would prevent us from breaking your extension when updating the API (as it is still a work in progress).",
+		"Activating Python Environment '{0}'",
+		"{0} Cell {1}",
+		"Yes",
+		"No",
+		"Don't Ask Again",
+		"The 'prerelease' version of the Jupyter Extension is recommended when running on VS Code insiders. Would you like to switch?",
+		"Jupyter Server Console",
+		"{0} Kernel Console Output",
+		"Operation not supported in web version of Jupyter Extension.",
+		"Has to be http(s)",
+		"Select a Local Kernel",
+		"type to filter",
+		"Select a Remote Kernel",
+		"type to filter",
+		"Failed to install the Python Extension.",
+		"This file could potentially override an existing Python package and interfere with kernel execution, consider renaming it.",
+		"Always ignore warnings about overriding Python packages",
+		"Ignore warning for {0}",
+		"More information on overriding Python packages",
+		"Reserved Python Filenames",
+		"Some of the following files found in the working directory may have prevented the Kernel from starting. Consider renaming them.",
+		"File(s): {0} might need to be renamed.",
+		"Failed to get version of Pandas to use the Data Viewer.",
+		"Failed to install Pandas to use the Data Viewer.",
+		"The setting 'python.formatting.formatOnSave' is deprecated, please use 'editor.formatOnSave'.",
+		"The setting 'python.linting.lintOnTextChange' is deprecated, please enable 'python.linting.lintOnSave' and 'files.autoSave'.",
+		"The setting 'python.autoComplete.preloadModules' is deprecated, please consider using Pylance Language Server ('python.languageServer' setting).",
+		"There is no Conda or Pip installer available in the selected environment.",
+		"There is no Pip installer available in the selected environment.",
+		"Search for help",
+		"Could not install {0}. If pip is not available, please use the package manager of your choice to manually install this library into your Python environment.",
+		"Data Science library {0} is not installed. Install?",
+		"Installing {0}"
+	],
+	"keys": [
+		"test",
+		"Common.jupyter",
+		"Common.bannerLabelYes",
+		"Common.bannerLabelNo",
+		"Common.yesPlease",
+		"Common.canceled",
+		"Common.cancel",
+		"Common.ok",
+		"Common.download",
+		"Common.gotIt",
+		"Common.install",
+		"Common.loadingExtension",
+		"Common.handleExtensionActivationError",
+		"Common.openOutputPanel",
+		"Common.noIWillDoItLater",
+		"Common.notNow",
+		"Common.doNotShowAgain",
+		"Common.reload",
+		"Common.moreInfo",
+		"Common.learnMore",
+		"Common.and",
+		"Common.reportThisIssue",
+		"Common.clickHereForMoreInfoWithHtml",
+		"CommonSurvey.remindMeLaterLabel",
+		"CommonSurvey.yesLabel",
+		"CommonSurvey.noLabel",
+		"downloading.file",
+		"downloading.file.progress",
+		"Experiments.inGroup",
+		"OutputChannelNames.jupyter",
+		{
+			"key": "GitHubIssue.Failure",
+			"comment": [
+				"{Locked=\"Issue\""
+			]
+		},
+		"GitHubIssue.copyToClipboardAndOpenIssue",
+		"GitHubIssue.askForIssueTitle",
+		{
+			"key": "GitHubIssue.titlePlaceholder",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"GitHubIssue.pleaseFillThisOut",
+		{
+			"key": "GitHubIssue.missingFields",
+			"comment": [
+				"{Locked=\"Issue\"}"
+			]
+		},
+		"Logging.WarnUserAboutDebugLoggingSetting",
+		"Logging.YesTurnOffDebugLogging",
+		"Logging.NoResponse",
+		"Logging.NoAndDontAskAgain",
+		"InteractiveShiftEnterBanner.bannerMessage",
+		"InsidersNativeNotebooksSurveyBanner.bannerMessage",
+		"DataScienceSurveyBanner.bannerMessage",
+		"DataScienceSurveyBanner.bannerLabelYes",
+		"DataScienceSurveyBanner.bannerLabelNo",
+		{
+			"key": "DataScienceRendererExtension.installingExtension",
+			"comment": [
+				"{Locked=\"Notebook Renderers\"}"
+			]
+		},
+		{
+			"key": "DataScienceRendererExtension.installationCompleteMessage",
+			"comment": [
+				"{Locked=\"Notebook Renderers\"}"
+			]
+		},
+		{
+			"key": "DataScienceRendererExtension.startingDownloadOutputMessage",
+			"comment": [
+				"{Locked=\"Notebook Renderers\"}"
+			]
+		},
+		{
+			"key": "DataScienceRendererExtension.downloadingMessage",
+			"comment": [
+				"{Locked=\"Notebook Renderers\"}"
+			]
+		},
+		{
+			"key": "DataScienceRendererExtension.downloadCompletedOutputMessage",
+			"comment": [
+				"{Locked=\"Notebook Renderers\"}"
+			]
+		},
+		"ExtensionSurveyBanner.bannerMessage",
+		"ExtensionSurveyBanner.bannerLabelYes",
+		"ExtensionSurveyBanner.bannerLabelNo",
+		"ExtensionSurveyBanner.maybeLater",
+		"products.installingModule",
+		{
+			"key": "DataScience.warnWhenSelectingKernelWithUnSupportedPythonVersion",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.pythonExtensionRequiredToRunNotebook",
+		"DataScience.installingPythonExtension",
+		"DataScience.customizeLayout",
+		"DataScience.pythonExtensionRequired",
+		"DataScience.pythonInstalledReloadPromptMessage",
+		"DataScience.unknownServerUri",
+		"DataScience.uriProviderDescriptionFormat",
+		"DataScience.unknownPackage",
+		"DataScience.interactiveWindowTitle",
+		"DataScience.interactiveWindowTitleFormat",
+		{
+			"key": "DataScience.interactiveWindowModeBannerTitle",
+			"comment": [
+				"{Locked='command:workbench.action.openSettings?%5B%22jupyter.interactiveWindowMode%22%5D'}"
+			]
+		},
+		"DataScience.interactiveWindowModeBannerSwitchYes",
+		"DataScience.interactiveWindowModeBannerSwitchAlways",
+		"DataScience.interactiveWindowModeBannerSwitchNo",
+		"DataScience.dataExplorerTitle",
+		{
+			"key": "DataScience.badWebPanelFormatString",
+			"comment": [
+				"{RegEx=\">[^<]*<\"}",
+				"Only translate the text within the HTML tags"
+			]
+		},
+		{
+			"key": "DataScience.checkingIfImportIsSupported",
+			"comment": [
+				"{Locked=\"import\"}"
+			]
+		},
+		"DataScience.installingMissingDependencies",
+		{
+			"key": "DataScience.validatingKernelDependencies",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.performingExport",
+		"DataScience.convertingToPDF",
+		{
+			"key": "DataScience.exportNotebookToPython",
+			"comment": [
+				"{Locked=\"Notebook\"}"
+			]
+		},
+		"DataScience.sessionDisposed",
+		"DataScience.passwordFailure",
+		{
+			"key": "DataScience.rawKernelProcessNotStarted",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.rawKernelProcessExitBeforeConnect",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.unknownMimeTypeFormat",
+		{
+			"key": "DataScience.exportDialogTitle",
+			"comment": [
+				"{Locked=\"Notebook\"}"
+			]
+		},
+		{
+			"key": "DataScience.exportDialogFilter",
+			"comment": [
+				"{Locked=\"Notebooks\"}"
+			]
+		},
+		"DataScience.exportDialogComplete",
+		"DataScience.exportDialogFailed",
+		"DataScience.exportOpenQuestion1",
+		"jupyter.command.jupyter.runcell.title",
+		{
+			"key": "DataScience.importDialogTitle",
+			"comment": [
+				"{Locked=\"Notebook\"}"
+			]
+		},
+		{
+			"key": "DataScience.notebookCheckForImportTitle",
+			"comment": [
+				"{Locked=\"Notebook\"}"
+			]
+		},
+		"DataScience.notebookCheckForImportYes",
+		"DataScience.notebookCheckForImportNo",
+		"DataScience.notebookCheckForImportDontAskAgain",
+		"DataScience.libraryNotInstalled",
+		"DataScience.libraryNotInstalledCorrectlyOrOutdated",
+		"DataScience.couldNotInstallLibrary",
+		"DataScience.libraryRequiredToLaunchJupyterNotInstalled",
+		"DataScience.librariesRequiredToLaunchJupyterNotInstalled",
+		"DataScience.libraryRequiredToLaunchJupyterNotInstalledInterpreter",
+		"DataScience.libraryRequiredToLaunchJupyterKernelNotInstalledInterpreter",
+		"DataScience.libraryRequiredToLaunchJupyterKernelNotInstalledInterpreterAndRequiresUpdate",
+		"DataScience.librariesRequiredToLaunchJupyterNotInstalledInterpreter",
+		"DataScience.installPackageInstructions",
+		"DataScience.selectJupyterInterpreter",
+		"DataScience.jupyterInstall",
+		"DataScience.currentlySelectedJupyterInterpreterForPlaceholder",
+		"DataScience.jupyterNotSupported",
+		"DataScience.jupyterNotSupportedBecauseOfEnvironment",
+		"DataScience.jupyterNbConvertNotSupported",
+		"DataScience.jupyterLaunchTimedOut",
+		"DataScience.jupyterLaunchNoURL",
+		"DataScience.jupyterSelfCertFail",
+		"DataScience.jupyterExpiredCertFail",
+		"DataScience.jupyterSelfCertFailErrorMessageOnly",
+		"DataScience.jupyterSelfCertExpiredErrorMessageOnly",
+		"DataScience.jupyterSelfCertEnable",
+		"DataScience.jupyterSelfCertClose",
+		"DataScience.pythonInteractiveHelpLink",
+		"DataScience.markdownHelpInstallingMissingDependencies",
+		"DataScience.importingFormat",
+		"DataScience.startingJupyter",
+		{
+			"key": "DataScience.connectingToKernel",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.connectedToKernel",
+		"DataScience.connectingToJupyter",
+		"DataScience.exportingFormat",
+		"jupyter.command.jupyter.runallcells.title",
+		"jupyter.command.jupyter.runallcellsabove.title",
+		"jupyter.command.jupyter.runcellandallbelow.title",
+		{
+			"key": "DataScience.restartKernelMessage",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.restartKernelMessageYes",
+		"DataScience.restartKernelMessageDontAskAgain",
+		"DataScience.automaticallyReconnectingToAKernelProgressMessage",
+		"DataScience.restartingKernelStatus",
+		"DataScience.restartingKernelFailed",
+		"DataScience.interruptingKernelFailed",
+		{
+			"key": "DataScience.sessionStartFailedWithKernel",
+			"comment": [
+				"{Locked=\"command:jupyter.viewOutput\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartJupyter",
+			"comment": [
+				"{Locked=\"command:jupyter.viewOutput\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartJupyterWithErrorInfo",
+			"comment": [
+				"{Locked=\"command:jupyter.viewOutput\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartJupyterDueToOutdatedTraitlets",
+			"comment": [
+				"{Locked=\"command:jupyter.viewOutput\"}",
+				"{Locked=\"traitless\"}"
+			]
+		},
+		"DataScience.failedToStartKernel",
+		"DataScience.failedToRestartKernel",
+		"DataScience.failedToInterruptKernel",
+		{
+			"key": "DataScience.rawKernelStartFailedDueToTimeout",
+			"comment": [
+				"{Locked=\"command:jupyter.viewOutput\"}"
+			]
+		},
+		{
+			"key": "DataScience.viewJupyterLogForFurtherInfo",
+			"comment": [
+				"{Locked=\"command:jupyter.viewOutput\"}"
+			]
+		},
+		{
+			"key": "DataScience.kernelDied",
+			"comment": [
+				"{Locked=\"kernel\"}",
+				"{Locked=\"command:jupyter.viewOutput\"}"
+			]
+		},
+		{
+			"key": "DataScience.kernelDiedWithoutError",
+			"comment": [
+				"{Locked=\"command:jupyter.viewOutput\"}",
+				"{Locked=\"vscodeJupyterKernelCrash\"}"
+			]
+		},
+		"DataScience.failedToStartAnUntrustedKernelSpec",
+		{
+			"key": "DataScience.kernelDiedWithoutErrorAndAutoRestarting",
+			"comment": [
+				"{Locked=\"kernel\"}",
+				"{Locked=\"command:jupyter.viewOutput\"}",
+				"{Locked=\"vscodeJupyterKernelCrash\"}"
+			]
+		},
+		{
+			"key": "DataScience.kernelCrashedDueToCodeInCurrentOrPreviousCell",
+			"comment": [
+				"{Locked=\"kernel\"}",
+				"{Locked=\"vscodeJupyterKernelCrash\"}",
+				"{Locked=\"command:jupyter.viewOutput\"}"
+			]
+		},
+		"DataScience.kernelDisconnected",
+		{
+			"key": "DataScience.cannotRunCellKernelIsDead",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"jupyter.showJupyterLogs",
+		"DataScience.executingCode",
+		"DataScience.collapseAll",
+		"DataScience.expandAll",
+		"DataScience.collapseSingle",
+		"DataScience.expandSingle",
+		"DataScience.export",
+		"DataScience.restartServer",
+		"DataScience.restartKernel",
+		"DataScience.undo",
+		"DataScience.redo",
+		"DataScience.save",
+		"DataScience.clearAll",
+		"DataScience.reloadRequired",
+		"DataScience.restartedKernelHeader",
+		"DataScience.restartingKernelCustomHeader",
+		{
+			"key": "DataScience.restartingKernelHeader",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.startedNewKernelHeader",
+		{
+			"key": "DataScience.kernelStarting",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.kernelStartingCustom",
+		"DataScience.connectKernelHeader",
+		"DataScience.jupyterSelectURIPrompt",
+		"DataScience.jupyterSelectURIQuickPickTitle",
+		"DataScience.jupyterSelectURIQuickPickTitleOld",
+		"DataScience.jupyterSelectURIQuickPickPlaceholder",
+		"DataScience.jupyterSelectURIQuickPickCurrent",
+		"DataScience.jupyterSelectURINoneLabel",
+		"DataScience.jupyterSelectURINoneDetail",
+		"DataScience.jupyterSelectURIMRUDetail",
+		"DataScience.jupyterSelectURINewLabel",
+		"DataScience.jupyterSelectURINewDetail",
+		"DataScience.jupyterSelectURIInvalidURI",
+		"DataScience.jupyterSelectURIRunningDetailFormat",
+		"DataScience.jupyterSelectURINotRunningDetail",
+		"DataScience.jupyterSelectUserAndPasswordTitle",
+		"DataScience.jupyterRenameServer",
+		"DataScience.jupyterSelectUserPrompt",
+		"DataScience.jupyterSelectPasswordPrompt",
+		"DataScience.pythonNotInstalled",
+		"DataScience.installKernel",
+		"DataScience.jupyterNotebookFailure",
+		"DataScience.remoteJupyterServerProvidedBy3rdPartyExtensionNoLongerValid",
+		"DataScience.remoteJupyterConnectionFailedWithServerWithError",
+		"DataScience.remoteJupyterConnectionFailedWithServer",
+		"DataScience.remoteJupyterConnectionFailedWithoutServerWithError",
+		"DataScience.remoteJupyterConnectionFailedWithoutServerWithErrorWeb",
+		"DataScience.remoteJupyterConnectionFailedWebExtension",
+		"DataScience.removeRemoteJupyterConnectionButtonText",
+		"DataScience.jupyterNotebookRemoteConnectFailedWeb",
+		"DataScience.changeRemoteJupyterConnectionButtonText",
+		"DataScience.changeJupyterRemoteConnection",
+		"DataScience.jupyterNotebookRemoteConnectSelfCertsFailed",
+		{
+			"key": "DataScience.rawConnectionDisplayName",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.rawConnectionBrokenError",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.jupyterServerCrashed",
+		{
+			"key": "DataScience.notebookVersionFormat",
+			"comment": [
+				"{Locked=\"Notebook\"}"
+			]
+		},
+		{
+			"key": "DataScience.jupyterKernelSpecNotFound",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.jupyterKernelSpecModuleNotFound",
+		"DataScience.interruptKernel",
+		"DataScience.clearAllOutput",
+		"DataScience.interruptKernelStatus",
+		"DataScience.exportCancel",
+		"DataScience.exportPythonQuickPickLabel",
+		"DataScience.exportHTMLQuickPickLabel",
+		"DataScience.exportPDFQuickPickLabel",
+		{
+			"key": "DataScience.restartKernelAfterInterruptMessage",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.pythonInterruptFailedHeader",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.sysInfoURILabel",
+		"DataScience.executingCodeFailure",
+		"DataScience.inputWatermark",
+		"DataScience.liveShareConnectFailure",
+		"DataScience.liveShareCannotSpawnNotebooks",
+		"DataScience.liveShareCannotImportNotebooks",
+		"DataScience.liveShareHostFormat",
+		"DataScience.liveShareSyncFailure",
+		"DataScience.liveShareServiceFailure",
+		"DataScience.documentMismatch",
+		"DataScience.jupyterGetVariablesBadResults",
+		"DataScience.dataExplorerInvalidVariableFormat",
+		"DataScience.pythonInteractiveCreateFailed",
+		"DataScience.jupyterGetVariablesExecutionError",
+		"DataScience.loadingMessage",
+		"DataScience.fetchingDataViewer",
+		"DataScience.noRowsInDataViewer",
+		"DataScience.jupyterServer",
+		"DataScience.noKernel",
+		"DataScience.serverNotStarted",
+		{
+			"key": "DataScience.selectKernel",
+			"comment": [
+				"{Locked=\"Kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.selectDifferentKernel",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "jupyter.kernel.filter.placeholder",
+			"comment": [
+				"{Locked=\"kernel\"}",
+				"{Locked=\"kernels\"}"
+			]
+		},
+		"DataScience.selectDifferentJupyterInterpreter",
+		"DataScience.localJupyterServer",
+		{
+			"key": "DataScience.pandasTooOldForViewingFormat",
+			"comment": [
+				"{Locked='pandas'",
+				"This is the name of the pandas package"
+			]
+		},
+		{
+			"key": "DataScience.pandasRequiredForViewing",
+			"comment": [
+				"{Locked='pandas'",
+				"This is the name of the pandas package"
+			]
+		},
+		"DataScience.valuesColumn",
+		"DataScience.liveShareInvalid",
+		"DataScience.tooManyColumnsMessage",
+		"DataScience.tooManyColumnsYes",
+		"DataScience.tooManyColumnsNo",
+		"DataScience.tooManyColumnsDontAskAgain",
+		"DataScience.filterRowsTooltip",
+		"DataScience.previewHeader",
+		"DataScience.previewFooter",
+		"DataScience.previewStatusMessage",
+		"DataScience.plotViewerTitle",
+		"DataScience.exportPlotTitle",
+		"DataScience.previousPlot",
+		"DataScience.nextPlot",
+		"DataScience.panPlot",
+		"DataScience.zoomInPlot",
+		"DataScience.zoomOutPlot",
+		"DataScience.exportPlot",
+		"DataScience.deletePlot",
+		"DataScience.editSection",
+		"DataScience.selectedImageListLabel",
+		"DataScience.imageListLabel",
+		"DataScience.exportImageFailed",
+		{
+			"key": "DataScience.jupyterDataRateExceeded",
+			"comment": [
+				"{Locked='NotebookApp.iopub_data_rate_limit'}",
+				"This command line parameter does not change across languages."
+			]
+		},
+		"DataScience.addCellBelowCommandTitle",
+		"DataScience.debugCellCommandTitle",
+		"DataScience.debugStepOverCommandTitle",
+		"DataScience.debugContinueCommandTitle",
+		"DataScience.debugStopCommandTitle",
+		"DataScience.runCurrentCellAndAddBelow",
+		"DataScience.jupyterDebuggerNotInstalledError",
+		"DataScience.jupyterDebuggerOutputParseError",
+		{
+			"key": "DataScience.jupyterDebuggerPortNotAvailableError",
+			"comment": [
+				"{Locked='remoteDebuggerPort'}"
+			]
+		},
+		"DataScience.jupyterDebuggerPortBlockedError",
+		"DataScience.jupyterDebuggerPortNotAvailableSearchError",
+		"DataScience.jupyterDebuggerPortBlockedSearchError",
+		"DataScience.jupyterDebuggerInstallNew",
+		"DataScience.jupyterDebuggerInstallNewRunByLine",
+		"DataScience.jupyterDebuggerInstallUpdate",
+		"DataScience.jupyterDebuggerInstallUpdateRunByLine",
+		"DataScience.jupyterDebuggerInstallYes",
+		"DataScience.jupyterDebuggerInstallNo",
+		"DataScience.cellStopOnErrorMessage",
+		"DataScience.scrollToCellTitleFormatMessage",
+		"DataScience.instructionComments",
+		"DataScience.nativeEditorTitle",
+		"DataScience.untitledNotebookFileName",
+		"DataScience.dirtyNotebookMessage1",
+		"DataScience.dirtyNotebookMessage2",
+		"DataScience.dirtyNotebookYes",
+		"DataScience.dirtyNotebookNo",
+		"DataScience.dirtyNotebookCancel",
+		"DataScience.dirtyNotebookDialogTitle",
+		"DataScience.dirtyNotebookDialogFilter",
+		"DataScience.notebookExportAs",
+		"DataScience.exportAsPythonFileTitle",
+		"DataScience.exportButtonTitle",
+		"DataScience.exportAsQuickPickPlaceholder",
+		"DataScience.openExportedFileMessage",
+		"DataScience.openExportFileYes",
+		"DataScience.openExportFileNo",
+		{
+			"key": "DataScience.exportFailedGeneralMessage",
+			"comment": [
+				"{Locked='command:jupyter.viewOutput'}"
+			]
+		},
+		"DataScience.exportToPDFDependencyMessage",
+		"DataScience.failedExportMessage",
+		"DataScience.runCell",
+		"DataScience.deleteCell",
+		"DataScience.moveCellUp",
+		"DataScience.moveCellDown",
+		"DataScience.moveSelectedCellUp",
+		"DataScience.deleteCell",
+		"DataScience.insertBelow",
+		"DataScience.insertAbove",
+		"DataScience.addCell",
+		"DataScience.runAll",
+		"DataScience.convertingToPythonFile",
+		"DataScience.noInterpreter",
+		{
+			"key": "DataScience.notebookNotFound",
+			"comment": [
+				"{Locked='python -m jupyter notebook --version'}"
+			]
+		},
+		"DataScience.savePngTitle",
+		{
+			"key": "DataScience.fallbackToUseActiveInterpreterAsKernel",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.fallBackToRegisterAndUseActiveInterpreterAsKernel",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.fallBackToPromptToUseActiveInterpreterOrSelectAKernel",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.startingJupyterLogMessage",
+		"DataScience.jupyterStartTimedout",
+		{
+			"key": "DataScience.switchingKernelProgress",
+			"comment": [
+				"{Locked=\"Kernel\"}"
+			]
+		},
+		"DataScience.waitingForJupyterSessionToBeIdle",
+		{
+			"key": "DataScience.gettingListOfKernelsForLocalConnection",
+			"comment": [
+				"{Locked=\"Kernels\"}"
+			]
+		},
+		{
+			"key": "DataScience.gettingListOfKernelsForRemoteConnection",
+			"comment": [
+				"{Locked=\"Kernels\"}"
+			]
+		},
+		{
+			"key": "DataScience.gettingListOfKernelSpecs",
+			"comment": [
+				"{Locked=\"Kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.startingJupyterNotebook",
+			"comment": [
+				"{Locked=\"Notebook\"}"
+			]
+		},
+		{
+			"key": "DataScience.registeringKernel",
+			"comment": [
+				"{Locked=\"Kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.trimmedOutput",
+			"comment": [
+				"{Locked='jupyter.textOutputLimit'}"
+			]
+		},
+		"DataScience.jupyterCommandLineDefaultLabel",
+		"DataScience.jupyterCommandLineDefaultDetail",
+		"DataScience.jupyterCommandLineCustomLabel",
+		"DataScience.jupyterCommandLineCustomDetail",
+		"DataScience.jupyterCommandLineReloadQuestion",
+		"DataScience.jupyterCommandLineReloadAnswer",
+		"DataScience.jupyterCommandLineQuickPickPlaceholder",
+		"DataScience.jupyterCommandLineQuickPickTitle",
+		"DataScience.jupyterCommandLinePrompt",
+		"DataScience.connectingToJupyterUri",
+		"DataScience.createdNewNotebook",
+		"DataScience.createdNewKernel",
+		"DataScience.kernelInvalid",
+		"DataScience.nativeDependencyFail",
+		"DataScience.selectNewServer",
+		"DataScience.jupyterSelectURIRemoteLabel",
+		"DataScience.jupyterSelectURIQuickPickTitleRemoteOnly",
+		"DataScience.jupyterSelectURIRemoteDetail",
+		"DataScience.removeRemoteJupyterServerEntryInQuickPick",
+		"jupyter.command.jupyter.selectjupyteruri.title",
+		"DataScience.jupyterNativeNotebookUriStatusLabelForLocal",
+		"DataScience.jupyterNativeNotebookUriStatusLabelForRemote",
+		"DataScience.loadClassFailedWithNoInternet",
+		"DataScience.useCDNForWidgets",
+		"DataScience.useCDNForWidgetsNoInformation",
+		{
+			"key": "DataScience.enableCDNForWidgetsSettingHtml",
+			"comment": [
+				"{Locked=\"command:jupyter.enableLoadingWidgetScriptsFromThirdPartySource\"}"
+			]
+		},
+		"DataScience.enableCDNForWidgetsSetting",
+		"DataScience.enableCDNForWidgetsButton",
+		{
+			"key": "DataScience.unhandledMessage",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.cdnWidgetScriptNotAccessibleWarningMessage",
+		"DataScience.widgetScriptNotFoundOnCDNWidgetMightNotWork",
+		"DataScience.qgridWidgetScriptVersionCompatibilityWarning",
+		"DataScience.runByLine",
+		"DataScience.step",
+		"DataScience.stopRunByLine",
+		{
+			"key": "DataScience.rawKernelSessionFailed",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.rawKernelConnectingSession",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.insecureSessionMessage",
+		"DataScience.insecureSessionDenied",
+		"DataScience.connected",
+		"DataScience.disconnected",
+		{
+			"key": "DataScience.noKernelsSpecifyRemote",
+			"comment": [
+				"{Locked=\"kernel\"}",
+				"{Locked=\"command:jupyter.selectjupyteruri\"}"
+			]
+		},
+		"DataScience.ipykernelNotInstalled",
+		"DataScience.needIpykernel6",
+		"DataScience.setup",
+		"DataScience.startingRunByLine",
+		"DataScience.showDataViewerFail",
+		"DataScience.notebookCreationPickerPlaceHolder",
+		"DataScience.defaultNotebookName",
+		"DataScience.recommendExtensionForNotebook",
+		{
+			"key": "DataScience.kernelWasNotStarted",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.noNotebookToDebug",
+		"DataScience.cantStartDebugging",
+		"DataScience.importingIpynb",
+		"DataScience.exportingToFormat",
+		"jupyter.kernel.category.jupyterSession",
+		"DataScience.kernelPrefixForRemote",
+		{
+			"key": "jupyter.kernel.category.jupyterKernel",
+			"comment": [
+				"{Locked=\"Kernel\"}"
+			]
+		},
+		{
+			"key": "jupyter.kernel.category.jupyterRemoteKernel",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"jupyter.kernel.category.conda",
+		{
+			"key": "jupyter.kernel.category.poetry",
+			"comment": [
+				"{Locked=\"Poetry\"}"
+			]
+		},
+		"jupyter.kernel.category.pipenv",
+		"jupyter.kernel.category.pyenv",
+		{
+			"key": "jupyter.kernel.category.global",
+			"comment": [
+				"{Locked=\"Global\"}"
+			]
+		},
+		{
+			"key": "jupyter.kernel.category.virtual",
+			"comment": [
+				"{Locked=\"Virtual\"}"
+			]
+		},
+		{
+			"key": "DataScience.fileSeemsToBeInterferingWithKernelStartup",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.moduleSeemsToBeInterferingWithKernelStartup",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"jupyter.kernel.pipCondaInstallHoverWarning",
+		{
+			"key": "jupyter.kernel.percentPipCondaInstallInsteadOfBang",
+			"comment": [
+				"{Locked=\"install\"}"
+			]
+		},
+		{
+			"key": "jupyter.kernel.replacePipCondaInstallCodeAction",
+			"comment": [
+				"{Locked=\"install\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToMissingModule",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToImportFailure",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToImportFromFileFailure",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToUnknownDllLoadFailure",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToDllLoadFailure",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToWin32APIFailure",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToPyZmqFailure",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToOldIPython",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToStartKernelDueToOldIPyKernel",
+			"comment": [
+				"{Locked=\"kernel\"}"
+			]
+		},
+		"DataScience.matplotlibWidgetInsteadOfOther",
+		"DataScience.matplotlibWidgetCodeActionTitle",
+		{
+			"key": "DataScience.allowExtensionToUseJupyterKernelApi",
+			"comment": [
+				"{Locked=\"Kernels\"}"
+			]
+		},
+		"DataScience.thanksForUsingJupyterKernelApiPleaseRegisterWithUs",
+		"DataScience.activatingEnvironment",
+		"DataScience.cellAtFormat",
+		"DataScience.usingNonPrereleaseYes",
+		"DataScience.usingNonPrereleaseNo",
+		"DataScience.usingNonPrereleaseNoAndDontAskAgain",
+		"DataScience.usingNonPrerelease",
+		"DataScience.jupyterServerConsoleOutputChannel",
+		"DataScience.kernelConsoleOutputChannel",
+		"DataScience.webNotSupported",
+		"DataScience.validationErrorMessageForRemoteUrlProtocolNeedsToBeHttpOrHttps",
+		"DataScience.pickLocalKernelTitle",
+		"DataScience.pickLocalKernelPlaceholder",
+		"DataScience.pickRemoteKernelTitle",
+		"DataScience.pickRemoteKernelPlaceholder",
+		"DataScience.failedToInstallPythonExtension",
+		"DataScience.pythonFileOverridesPythonPackage",
+		"DataScience.alwaysIgnoreWarningsAboutOverridingPythonPackages",
+		"DataScience.ignoreWarningAboutOverridingPythonPackage",
+		"DataScience.moreInfoAboutFileNamesOverridingPythonPackages",
+		"DataScience.reservedPythonFileNamesDiagnosticCollectionName",
+		"DataScience.filesPossiblyOverridingPythonModulesMayHavePreventedKernelFromStarting",
+		"DataScience.listOfFilesWithLinksThatMightNeedToBeRenamed",
+		{
+			"key": "DataScience.failedToGetVersionOfPandas",
+			"comment": [
+				"{Locked=\"Pandas\"}"
+			]
+		},
+		{
+			"key": "DataScience.failedToInstallPandas",
+			"comment": [
+				"{Locked=\"Pandas\"}"
+			]
+		},
+		{
+			"key": "Deprecated.SHOW_DEPRECATED_FEATURE_PROMPT_FORMAT_ON_SAVE",
+			"comment": [
+				"{Locked=\"python.formatting.formatOnSave\"}",
+				"{Locked=\"editor.formatOnSave\"}"
+			]
+		},
+		{
+			"key": "Deprecated.SHOW_DEPRECATED_FEATURE_PROMPT_LINT_ON_TEXT_CHANGE",
+			"comment": [
+				"{Locked=\"python.linting.lintOnTextChange\"}",
+				"{Locked=\"python.linting.lintOnSave\"}",
+				"{Locked=\"files.autoSave\"}"
+			]
+		},
+		{
+			"key": "Deprecated.SHOW_DEPRECATED_FEATURE_PROMPT_FOR_AUTO_COMPLETE_PRELOAD_MODULES",
+			"comment": [
+				"{Locked=\"python.autoComplete.preloadModules\"}",
+				"{Locked=\"python.languageServer\"}"
+			]
+		},
+		"Installer.noCondaOrPipInstaller",
+		"Installer.noPipInstaller",
+		"Installer.searchForHelp",
+		"Installer.couldNotInstallLibrary",
+		"Installer.dataScienceInstallPrompt",
+		"products.installingModule"
+	],
+	"filePath": "src/platform/common/utils/localize"
+}

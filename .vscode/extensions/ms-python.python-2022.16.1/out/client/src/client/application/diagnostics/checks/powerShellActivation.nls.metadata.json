@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Activation of the selected Python environment is not supported in PowerShell. Consider changing your shell to Command Prompt."
+	],
+	"keys": [
+		"powershelActivationMsg"
+	],
+	"filePath": "src/client/application/diagnostics/checks/powerShellActivation"
+}
