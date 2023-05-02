@@ -1,26 +1,31 @@
-<h1 align="center">My dotfiles 📂🗃️</h1> 
+<h1 align="center">My dotfiles Version Bocchi The Rock (Ryo Yamada) 🎧🎶🎸</h1> 
 
-
-Welcome to my dotfiles configuration (Linux based on Ubuntu). Here will fine my main configuations in every distro as Grub configurations, coulor icons, some scripts, Grub theme and some colours terminal.
 
 <p align="center">
-    <img src= "https://media.tenor.com/o-0LaJK3qWcAAAAC/yamada-ryou-yamada-ryo.gif" align="center">
+    <img src="https://media.tenor.com/XW8AKTDrh8oAAAAC/bocchi-the-rock-ryo.gif"
+    height="400px">
+</p>
+
+
+Welcome to my dotfiles configuration (Linux based on KDE Plasma Kubuntu). Main theme is Bocchi The Rock - Ryo Yamada on main branche there are some scritps extra that I use on this distro.
+
+<p align="center">
+    <img src= "img/terminal.png" align="center">
 </p>
 
 
 
-<h1 align="center"> Terminal emulator (Tilix) 🖥️</h1>
+<h1 align="center"> Main Packets on this distro. 📦</h1>
+All package are up or you can dowload from [KDE look]()
 
-Tilix is userful if you want to use many terminals at same time. However, for a neofetch picture appear on this terminal, will not do it. I recommend use *Kitty terminal*. Tilix is terminal I use.
-
-    sudo apt install tilix
-
-There is an issue that Tilix redirects to its official website to configure your *.bashrc* or *.zshrc*, but check the file on this path since it's changed.
-
-<p align="center">
-    <img src= "https://i.pinimg.com/originals/c1/16/12/c11612b4a8bc754d82e4025aab7dc11d.gif" align="center">
-</p>
-
+1. Startup theme: *Sugar Candy for SDDM* 
+2. Global Theme:  *Dark breeze* (Default theme by Kubuntu)
+3. App style: *Breeze* (By default)
+4. Plasma Style:  *Otto*.
+5. Color: *Sweet*
+6. Style of windows and icons is on main branche.
+7. Cursor theme:  *Oreo Blue  Cursor*
+8. Welcome screen: *Snowy Night Miku*
 
 <h1 align="center"> Themes on terminal emulator (Gogh) 🎨</h1>
 Clone the repository
@@ -32,74 +37,43 @@ Give permissions:
     chmod +x *.sh
 
 **Warning**: Sometimes there is a bug on some distros with gogh. Close terminal and open a new terminal and go to path you saved the repository. Finally, execute this command:
-    
+
     ./gogh.sh
 
-And follow the instructions on the repository.
+Sometimes, KDE plasma needs an extra package *dconf*. For install it
+
+    sudo apt install dconf-cli
+
+
+<h1 align="center"> Wallpapers 🎨🖼️</h1>
+
+## Tilix Emultator terminal
 
 <p align="center">
-    <img src= "https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" align="center">
+    <img src= "img/bocchi_the_rock_4.jpg" align="center">
+</p>
+
+## Sugar Candy for SDDM 
+<p align="center">
+    <img src= "img/bocchi_the_rock_11.jpeg" align="center">
 </p>
 
 
-<h1 align="center"> Grub theme 🖼️</h1>
-
-Touhou grub theme and more. Get it [here](https://github.com/JohnKun136NVCP/GRUB-Theme).
-
-![](/img/grubtheme.png)
-
-All instructions on the repository, but they are here.
-
-    git clone https://github.com/JohnKun136NVCP/GRUB-Theme.git
-
-    cd GRUB-Theme 
-Choose your theme (in my case is Touhou Project)
-
-    cd Touhou\ Project/ 
-
-Give the permissions
-
-    chmod +x *.sh
-
-Install it.
-
-    sudo ./install.sh
-
-or
-
-    sudo sh install.sh
-
-Finally:
-
-    sudo update-grub
-
-<h1 align="center"> Scripts 📜 </h1>
-
-There are some scripts that it will useful.
-
-Brave (Browser)
-
-    chmod +x brave.sh
-
-And run it.
-
-    ./brave.sh
-
-
-<h1 align="center">Themes icons, windows and cursors 🪟🎨</h1>
-
-GNOME needs an extra tool, for KDE plasma is not necessary.
-
-    sudo apt-get install gnome-tweak-tool
-
-For icons and cursos create a directory hidden with name *.icons*. Also, make it with name *.themes*. I use *candy icons*, *Sweet-cursos* and *Sweet-Dark*. However, you can find more [here](https://www.gnome-look.org/find?search=sweet).
-
-![](/img/themes-sweet.png)
-
-> Example on Zorin OS
-
-<h1 align="center">Thank you ⚡ </h1>
+## Lock screen
 
 <p align="center">
-    <img src= "https://pa1.narvii.com/5803/e23c08fdf2a1cd31913a7f650889a11de34f8c89_hq.gif" align="center" width="700px">
+    <img src= "img/bocchi_the_rock_18.jpg" align="center">
 </p>
+
+## Wallpaper screen
+
+<p align="center">
+    <img src= "img/bocchi_the_rock_1.png" align="center">
+</p> 
+
+<h1 align="center"> Neofetch. 🎼🎶🗒</h1>
+
+Based on Yamada Ryo. This is original picture, but *ascii art* is on directory of neofetch.
+<p align="center">
+    <img src= "img/ryo_yamada.png" align="center">
+</p> 
