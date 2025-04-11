@@ -1,0 +1,12 @@
+[Unit]
+Description=Change wallpaper of KDE desktop
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /home/youruser/pathScript/wallpaperKDE.sh /home/youruser/DirectoryOfYouWallpapers/
+Restart=on-failure
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Install]
+WantedBy=default.target

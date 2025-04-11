@@ -1,0 +1,9 @@
+[Unit]
+Description=Change wallpaper every minute
+
+[Timer]
+OnUnitActiveSec=1min
+OnBootSec=1min
+
+[Install]
+WantedBy=timers.target
