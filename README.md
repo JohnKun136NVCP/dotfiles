@@ -17,7 +17,7 @@ New features about this.
 <h1 align="center"> New Updates ✨🆙♨️ </h1>
 
 <p align="center">
-    <img src="https://images3.alphacoders.com/131/1313942.png">
+    <img src="img/Sky Blossom Anime.png">
 </p>
 
 > Sky blossom Anime Girl 
