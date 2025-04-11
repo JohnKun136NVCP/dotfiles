@@ -3,75 +3,36 @@
 
 Welcome to my dotfiles configuration (Linux based on Ubuntu). Here will fine my main configuations in every distro as Grub configurations, coulor icons, some scripts, Grub theme and some colours terminal.
 
-<p align="center">
-    <img src= "https://media.tenor.com/o-0LaJK3qWcAAAAC/yamada-ryou-yamada-ryo.gif" align="center">
-</p>
+New features about this.
+1. On 829a80873024e11ab4644ce5c433a27701841da9 I was using Tilix however actually I don't.
+2. Changed some scripts and new features. Please some scripts Will not be able because some of theme are a troubleshooting on new updates.
 
-
-
-<h1 align="center"> Terminal emulator (Tilix) 🖥️</h1>
-
-Tilix is userful if you want to use many terminals at same time. However, for a neofetch picture appear on this terminal, will not do it. I recommend use *Kitty terminal*. Tilix is terminal I use.
-
-    sudo apt install tilix
-
-There is an issue that Tilix redirects to its official website to configure your *.bashrc* or *.zshrc*, but check the file on this path since it's changed.
 
 <p align="center">
-    <img src= "https://i.pinimg.com/originals/c1/16/12/c11612b4a8bc754d82e4025aab7dc11d.gif" align="center">
+    <img src= "https://giffiles.alphacoders.com/223/223305.gif" align="center">
 </p>
 
+> 猫猫 (マアマオ) (*maamao*). She's really smart. My great admiration for her.
 
-<h1 align="center"> Themes on terminal emulator (Gogh) 🎨</h1>
-Clone the repository
-
-    git clone https://github.com/Gogh-Co/Gogh.git
-
-Give permissions:
-
-    chmod +x *.sh
-
-**Warning**: Sometimes there is a bug on some distros with gogh. Close terminal and open a new terminal and go to path you saved the repository. Finally, execute this command:
-    
-    ./gogh.sh
-
-And follow the instructions on the repository.
+<h1 align="center"> New Updates ✨🆙♨️ </h1>
 
 <p align="center">
-    <img src= "https://media.tenor.com/2c7diqh1oVIAAAAC/anime-computer.gif" align="center">
+    <img src="https://images3.alphacoders.com/131/1313942.png">
 </p>
 
+> Sky blossom Anime Girl 
 
-<h1 align="center"> Grub theme 🖼️</h1>
 
-Touhou grub theme and more. Get it [here](https://github.com/JohnKun136NVCP/GRUB-Theme).
+Actually my desktop is on based from the branch [Kubuntu-KDE](https://github.com/JohnKun136NVCP/dotfiles/tree/Kubuntu-KDE)
 
-![](/img/grubtheme.png)
+Then new features (By branch):
 
-All instructions on the repository, but they are here.
-
-    git clone https://github.com/JohnKun136NVCP/GRUB-Theme.git
-
-    cd GRUB-Theme 
-Choose your theme (in my case is Touhou Project)
-
-    cd Touhou\ Project/ 
-
-Give the permissions
-
-    chmod +x *.sh
-
-Install it.
-
-    sudo ./install.sh
-
-or
-
-    sudo sh install.sh
-
-Finally:
-
-    sudo update-grub
+| Branch/ OS | Kitty Terminal | Tilix Terminal | Gogh |Grub Theme| Other Features (not over 1 year) |Name of version (On use?)|
+|:--:|:--------:|:---------:|:---:|:----:|:---:|:--:|
+|Kubuntu-KDE/Kubuntu| ✅| 🚫|🚫|[Hatsune Miku](https://github.com/JohnKun136NVCP/GRUB-Theme/tree/master/Hatsune%20Miku)|✅ f3acb0d|Waifus 1.0 ✅|
+|KDE-plasma-set/Kubuntu| 🚫|✅|✅|[Touhou Project](https://github.com/JohnKun136NVCP/GRUB-Theme/tree/master/Touhou%20Project)|🚫 cb7d804|Bocchi The Rock (Ryo Yamada) 🚫|
+|ubuntu-set/Ubuntu| 🚫|✅|✅|[TQQ(Nakano Itsuki)](https://github.com/JohnKun136NVCP/GRUB-Theme/tree/master/Nakano%20Itsuki)|🚫 ba14f22|TQQ Itsuki 🚫|
+|zorin-set/Zorin| 🚫|✅|✅|[Touhou Project](https://github.com/JohnKun136NVCP/GRUB-Theme/tree/master/Touhou%20Project)|🚫 55b9508|The World God Only Knows 🚫|
 
 <h1 align="center"> Scripts 📜 </h1>
 
@@ -85,21 +46,59 @@ And run it.
 
     ./brave.sh
 
+Scripts updates:
+1. **Brave**: Fixed on f91492ec installation for Ubuntu/KDE updates.
+2. **DDUPD**: I suggest you not use on anothers distros since maybe It will be able to break your Visual Studio Code.
+3. **MVP**: Deleted. (a4340f1b)
+4. **Steam**: Merged into one (aa1f06a8).
 
-<h1 align="center">Themes icons, windows and cursors 🪟🎨</h1>
+By source:
+```bash
+sudo ./steamInstall -S
+```
+By repository:
+```bash
+sudo ./steamInstall -R
+```
+5. **Wallch**: Deleted. (a4340f1b)
 
-GNOME needs an extra tool, for KDE plasma is not necessary.
+I made a script to install all you by package or all.
 
-    sudo apt-get install gnome-tweak-tool
 
-For icons and cursos create a directory hidden with name *.icons*. Also, make it with name *.themes*. I use *candy icons*, *Sweet-cursos* and *Sweet-Dark*. However, you can find more [here](https://www.gnome-look.org/find?search=sweet).
+1. Permissions to execute.
+```bash
+chmod a+x install.sh
+```
+2. Run it with sudo.
+The options are:
+```bash
+Usage: sudo ./install [--one] [--all] [--help]
+--one: Install a single application.
+--all: Install all applications.
+--help: Show this help message.
+Available applications: brave, mpv, spotify, steam, wallch
+Example: sudo ./install --one brave
+Example: sudo ./install --all
+Example: ./install --help
+```
+# For old packages
+- Tilix
+- Gogh
+- Grub Themes
+- Themes and cursors
 
-![](/img/themes-sweet.png)
+Please click [here](oldInstallations.md)
 
-> Example on Zorin OS
+# Grub Hatsune Miku 16th
+![](img/miku.png)
+
+
+# Coming soon (Arch Dotfiles).
+
+I'm preparating my dotfiles for my distro based on Arch (Garuda Linux with Hyprland)
 
 <h1 align="center">Thank you ⚡ </h1>
 
 <p align="center">
-    <img src= "https://pa1.narvii.com/5803/e23c08fdf2a1cd31913a7f650889a11de34f8c89_hq.gif" align="center" width="700px">
+    <img src= "https://i.pinimg.com/originals/e8/f0/fd/e8f0fd891e5edcaf8f338a6c76fd00c4.gif" align="center" width="700px">
 </p>
