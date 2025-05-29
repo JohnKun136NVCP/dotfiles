@@ -36,8 +36,10 @@ On this year I've started a new project (make videos). So:
 1. [OpenShot Video Editor](https://www.openshot.org/es/download/)
 2. [MKVToolNix](https://mkvtoolnix.download/)
 3. [LMMS](https://lmms.io/download#linux)
-4. [MusicScore](https://musescore.org/es/download/musescore-x86_64.AppImage)
+4. [MuseScore](https://musescore.org/es/download/musescore-x86_64.AppImage)
 5. [AudaCity](https://www.audacityteam.org/)
+6. [OpenUtau](https://www.openutau.com/)
+7. [KDE ISO image](https://apps.kde.org/es/isoimagewriter/)
 
 Now talking about themes. I got many troubles to install a them. So I installed using the source.
 Theme: Sweet KDE
@@ -152,6 +154,25 @@ So I made a script using bash and Python. I suggest you to use bash script.
 
 > [!IMPORTANT]  
 > ONLY WORKS FOR KDE PLASMA.
+
+<h1 align="center"> USB Detection Sound Service🖼➡️🖼 </h1>
+
+If you're imagining what I think you're imagining, then yeah, you're right. Since I'm not using Windows, the following script detects if a USB device (or devices) is plugged in or already connected, then plays the 'Ara ara' ringtone. When a device (or devices) is unplugged, it plays the 'Bye bye' ringtone. Also, the script is now running as a user service on my PC. Here is the configuration:
+
+On **usbdetectedsound.service** copy and change the parameters:
+```bash
+[Unit]
+Description=USB Detection Sound Service (User Mode)
+After=default.target
+
+[Service]
+ExecStart=/home/youruser/pathScript/usbplug.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
+```
+Same steps from wallpaper for systemctl configuration.
 
 <h1 align="center"> Extra </h1>
 
