@@ -157,7 +157,9 @@ So I made a script using bash and Python. I suggest you to use bash script.
 
 <h1 align="center"> USB Detection Sound Service🖼➡️🖼 </h1>
 
-If you're imagining what I think you're imagining, then yeah, you're right. Since I'm not using Windows, the following script detects if a USB device (or devices) is plugged in or already connected, then plays the 'Ara ara' ringtone. When a device (or devices) is unplugged, it plays the 'Bye bye' ringtone. Also, the script is now running as a user service on my PC. Here is the configuration:
+If you're imagining what I think you're imagining, then yeah, you're right ([watch this video](https://www.youtube.com/shorts/DoRFBx0s8ng)). Since I'm not using Windows, the following script detects if a USB device (or devices) is plugged in or already connected, then plays the 'Ara ara' ringtone. When a device (or devices) is unplugged, it plays the 'Bye bye' ringtone. Also, the script is now running as a user service on my PC. Here is the configuration:
+
+
 
 On **usbdetectedsound.service** copy and change the parameters:
 ```bash
