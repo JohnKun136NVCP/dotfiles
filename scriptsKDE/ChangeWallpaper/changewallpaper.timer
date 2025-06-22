@@ -1,9 +1,9 @@
 [Unit]
-Description=Change wallpaper every minute
+Description=Change wallpaper every 15 minutes
 
 [Timer]
-OnUnitActiveSec=1min
-OnBootSec=1min
+OnUnitActiveSec=15min
+OnBootSec=15min
 
 [Install]
 WantedBy=timers.target
