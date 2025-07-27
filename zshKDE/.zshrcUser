@@ -102,7 +102,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-neofetch
+#neofetch (RIP)
+IMG=$(ls ~/.config/fastfetch/FastFetchPictures/*.png | shuf -n 1)
+fastfetch --kitty-icat "$IMG"
 alias administrator="sudo su"
 alias audacity="nohup ./Descargas/AppimagePrograms/Audacity.AppImage > /dev/null 2>&1 &"
 alias berry="kitten ssh -p YOURPORT YOURHOST@IPADDRESS"
